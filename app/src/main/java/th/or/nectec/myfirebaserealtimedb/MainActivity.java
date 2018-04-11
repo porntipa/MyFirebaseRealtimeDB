@@ -3,6 +3,7 @@ package th.or.nectec.myfirebaserealtimedb;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -11,6 +12,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,7 +48,14 @@ public class MainActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
 
             }
-
         });
     }
+    public void onClickUpdateButton(View view) {
+        Map<String, Object> value = new HashMap<String, Object>();
+        value.put("counter",mCounter++);
+
+        myRef.updateChildren(value);
+
+    }
+
 }
