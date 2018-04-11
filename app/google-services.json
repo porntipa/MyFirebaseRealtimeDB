@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252953233658",
+    "firebase_url": "https://fir-ba3da.firebaseio.com",
+    "project_id": "fir-ba3da",
+    "storage_bucket": "fir-ba3da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252953233658:android:92a4db52f91635a1",
+        "android_client_info": {
+          "package_name": "th.or.nectec.myfirebaserealtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252953233658-fnud68oquu1o5hbj4br0778v1gtsu5fb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.or.nectec.myfirebaserealtimedb",
+            "certificate_hash": "615a12a88841ededb9c9efb49f5fe7f347a43975"
+          }
+        },
+        {
+          "client_id": "252953233658-o9utsc7cdu6kqrrvjo33lcfcsu8kvmf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy-ZaOK5nctzpl5XxVak6io17_PAxIHhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252953233658-o9utsc7cdu6kqrrvjo33lcfcsu8kvmf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
