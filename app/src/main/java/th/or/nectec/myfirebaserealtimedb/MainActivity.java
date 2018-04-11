@@ -57,5 +57,9 @@ public class MainActivity extends AppCompatActivity {
         myRef.updateChildren(value);
 
     }
-
+    public void onClickAppendButton(View view) {
+        DatabaseReference subitems = myRef.child("appends");
+        subitems.child(String.valueOf(mCounter++)).setValue(true);
+    }
 }
+
